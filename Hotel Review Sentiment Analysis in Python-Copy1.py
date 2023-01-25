@@ -59,7 +59,7 @@ response = driver.page_source
 parseHTML(response)
 clickNextReviewPageButton(0)
 
-for i in range(0,400):
+for i in range(0,10):
     try:
         print("Grabbing Page",i+2)
         response = clickNextReviewPageButton(1)
